@@ -3,8 +3,15 @@
   <h1>{{ valor | number }}</h1>
   <h1>{{ obj | json }}</h1>
 </div>
-<button pButton
+<p-button class="p-button-help"
+  icon="pi pi-check" 
+  iconPos="right"
   (click)="mostrarNombre()"
   label="Cambiar Nombre"
 >
-</button>
+</p-button>
+<p-card [header]="nombre | titlecase"
+  subheader="Esto es un subheader"
+>
+  Contenido de la tarjeta
+</p-card>
