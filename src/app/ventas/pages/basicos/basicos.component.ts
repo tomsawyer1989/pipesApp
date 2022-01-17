@@ -10,6 +10,7 @@ export class BasicosComponent implements OnInit {
   nombreLower: string = 'jorge';
   nombreUpper: string = 'JORGE';
   nombreCompleto: string = 'jOrGe lEoNaRdO';
+  fecha: Date = new Date(); // Fecha actual del sistema.
 
   constructor() { }
 
