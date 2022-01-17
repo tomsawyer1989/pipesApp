@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class BasicosComponent implements OnInit {
+  nombreLower: string = 'jorge';
+  nombreUpper: string = 'JORGE';
+  nombreCompleto: string = 'jOrGe lEoNaRdO';
 
   constructor() { }
 
